@@ -1,19 +1,14 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace TechElevator.Enums
 {
     public class Program
     {
-        static void Main()
+        public static void Main()
         {
             // We have 3 different monsters, each with their own resistances
-            IEnumerable<GameEnemy> enemies = new List<GameEnemy>()
-            {
-                new Goblin(),
-                new Troll(),
-                new RockMonster()
-            };
+            GameEnemy[] enemies = new GameEnemy[] { new Goblin(), new Troll(), new RockMonster() }
 
             // Loop through each one and attack it
             foreach (GameEnemy enemy in enemies)
