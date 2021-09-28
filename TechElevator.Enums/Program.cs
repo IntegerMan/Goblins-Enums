@@ -8,7 +8,7 @@ namespace TechElevator.Enums
         public static void Main()
         {
             // We have 3 different monsters, each with their own resistances
-            GameEnemy[] enemies = new GameEnemy[] { new Goblin(), new Troll(), new RockMonster() }
+            GameEnemy[] enemies = new GameEnemy[] { new Goblin(), new Troll(), new RockMonster() };
 
             // Loop through each one and attack it
             foreach (GameEnemy enemy in enemies)
